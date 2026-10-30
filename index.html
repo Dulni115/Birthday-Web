@@ -1,0 +1,441 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Rickky's 25th Birthday 💚</title>
+
+    <link rel="stylesheet" href="style.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+    <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@400;500;600;700;800;900&family=Poppins:wght@300;400;500;600;700&family=Playfair+Display:ital,wght@0,500;0,600;0,700;1,500;1,600&display=swap"
+          rel="stylesheet">
+</head>
+
+<body>
+
+    <!-- Animated background -->
+    <div class="background-glow glow-one"></div>
+    <div class="background-glow glow-two"></div>
+    <div id="stars"></div>
+    <div id="hearts"></div>
+
+    <!-- Top navigation -->
+    <nav class="navbar">
+        <div class="logo">R<span>25</span><b>♡</b></div>
+        <div class="nav-label">A LITTLE SURPRISE FOR YOU</div>
+        <div class="nav-dot"></div>
+    </nav>
+
+    <!-- PAGE 1: UNLOCK 25 -->
+    <section class="page active" id="page1">
+        <div class="page-content unlock-content">
+
+            <div class="top-label">
+                <span class="live-dot"></span>
+                A SPECIAL SURPRISE IS WAITING
+            </div>
+
+            <div class="unlock-art">
+                <div class="ring ring1"></div>
+                <div class="ring ring2"></div>
+                <div class="ring ring3"></div>
+
+                <div class="orbit orbit-a">✦</div>
+                <div class="orbit orbit-b">♡</div>
+                <div class="orbit orbit-c">✧</div>
+
+                <div class="number-25">25</div>
+                <div class="number-caption">YEARS OF BEING AMAZING</div>
+            </div>
+
+            <p class="eyebrow">TO MY FAVOURITE HUMAN</p>
+
+            <h1 class="unlock-title">
+                UNLOCK<br>
+                <span>YOUR DAY.</span>
+            </h1>
+
+            <p class="description">
+                Someone very special is turning 25.
+                And someone annoying has a surprise for her.
+            </p>
+
+            <button class="main-button" onclick="showPage(2)">
+                <span class="button-icon">🔓</span>
+                UNLOCK 25
+                <span class="button-arrow">↗</span>
+            </button>
+
+            <p class="bottom-note">MADE WITH LOVE, JUST FOR YOU ♡</p>
+        </div>
+    </section>
+
+    <!-- PAGE 2: HAPPY BIRTHDAY -->
+    <section class="page" id="page2">
+        <div class="page-content birthday-content">
+
+            <div class="floating-star star-a">✦</div>
+            <div class="floating-star star-b">✧</div>
+            <div class="floating-star star-c">♡</div>
+
+            <div class="birthday-badge">
+                ✨ IT'S YOUR SPECIAL DAY ✨
+            </div>
+
+            <p class="eyebrow">A NEW CHAPTER BEGINS</p>
+
+            <h1 class="birthday-heading">
+                HAPPY<br>
+                <span>BIRTHDAY!</span>
+            </h1>
+
+            <div class="birthday-age">
+                <span class="age-line"></span>
+                <span>HAPPY 25TH, RICKKYYYY!</span>
+                <span class="age-line"></span>
+            </div>
+
+            <p class="description">
+                25 years of beautiful memories, laughter,
+                love, and being the most amazing Akkee.
+            </p>
+
+            <div class="birthday-quote">
+                "The world became a little more beautiful
+                the day you were born." ♡
+            </div>
+
+            <button class="main-button" onclick="showPage(3)">
+                LET'S SEE OUR MEMORIES
+                <span class="button-arrow">→</span>
+            </button>
+
+            <p class="bottom-note">YOUR NEXT SURPRISE IS WAITING...</p>
+        </div>
+    </section>
+
+    <!-- PAGE 3: PHOTO GALLERY -->
+    <section class="page" id="page3">
+        <div class="page-content gallery-content">
+
+            <p class="eyebrow">LITTLE MOMENTS, BIG MEMORIES</p>
+
+            <h2 class="section-heading">
+                OUR LITTLE<br>
+                <span>UNIVERSE. ♡</span>
+            </h2>
+
+            <p class="description">
+                A few memories with one of my favourite people.
+                And a reminder of how lucky I am to have you.
+            </p>
+
+            <div class="photo-gallery">
+
+                <div class="photo-card photo-card-one">
+                    <div class="photo-frame">
+                        <img src="images/akka1.jpg"
+                             alt="A beautiful memory of my sister"
+                             class="memory-photo">
+                        <span class="photo-heart">♡</span>
+                    </div>
+                    <p class="photo-caption">MY FAVOURITE PERSON</p>
+                    <span class="photo-number">MEMORY 01</span>
+                </div>
+
+                <div class="photo-card photo-card-two">
+                    <div class="photo-frame">
+                        <img src="images/akka2.jpg"
+                             alt="A special memory with my sister"
+                             class="memory-photo">
+                        <span class="photo-heart">♡</span>
+                    </div>
+                    <p class="photo-caption">MY SAFE PLACE</p>
+                    <span class="photo-number">MEMORY 02</span>
+                </div>
+
+                <div class="photo-card photo-card-three">
+                    <div class="photo-frame">
+                        <img src="images/akka3.jpg"
+                             alt="My lovely Akkee"
+                             class="memory-photo">
+                        <span class="photo-heart">♡</span>
+                    </div>
+                    <p class="photo-caption">FOREVER MY AKKEE</p>
+                    <span class="photo-number">MEMORY 03</span>
+                </div>
+
+            </div>
+
+            <p class="gallery-footer">
+                DIFFERENT MOMENTS. ONE FOREVER BOND. 💚
+            </p>
+
+            <button class="main-button" onclick="showPage(4)">
+                NEXT SURPRISE
+                <span class="button-arrow">→</span>
+            </button>
+        </div>
+    </section>
+
+    <!-- PAGE 4: BIRTHDAY CAKE -->
+    <section class="page" id="page4">
+        <div class="page-content cake-content">
+
+            <p class="eyebrow">MAKE A WISH, BIRTHDAY GIRL</p>
+
+            <h2 class="section-heading">
+                YOUR WISHES<br>
+                <span>MATTER. ✨</span>
+            </h2>
+
+            <p class="description">
+                Close your eyes, make a wish,
+                and get ready for your most beautiful year yet.
+            </p>
+
+            <div class="countdown" id="countdown">♡</div>
+
+            <p class="countdown-label" id="countdownLabel">
+                YOUR BIRTHDAY WISH STARTS HERE
+            </p>
+
+            <div class="cake-scene" id="cakeScene">
+
+                <div class="cake-sparkle sparkle1">✦</div>
+                <div class="cake-sparkle sparkle2">✧</div>
+                <div class="cake-sparkle sparkle3">✦</div>
+
+                <div class="cake">
+                    <div class="candles">
+
+                        <div class="candle candle1">
+                            <div class="flame"></div>
+                        </div>
+
+                        <div class="candle candle2">
+                            <div class="flame"></div>
+                        </div>
+
+                        <div class="candle candle3">
+                            <div class="flame"></div>
+                        </div>
+
+                    </div>
+
+                    <div class="cake-top"></div>
+                    <div class="cake-middle"></div>
+                    <div class="cake-bottom"></div>
+                    <div class="cake-plate"></div>
+                </div>
+            </div>
+
+            <button class="main-button" id="countdownButton">
+                START THE COUNTDOWN
+                <span class="button-arrow">→</span>
+            </button>
+
+            <button class="main-button hidden" id="blowButton">
+                🌬️ BLOW THE CANDLES
+            </button>
+
+            <p class="wish-message" id="wishMessage"></p>
+
+            <button class="outline-button hidden"
+                    id="cakeContinueButton"
+                    onclick="showPage(5)">
+                MY WISHES FOR YOU ♡
+                <span>→</span>
+            </button>
+        </div>
+    </section>
+
+    <!-- PAGE 5: IVE & YUJIN -->
+    <section class="page" id="page5">
+        <div class="page-content ive-content">
+
+            <div class="ive-badge">♡ A LITTLE K-POP MAGIC ♡</div>
+
+            <p class="eyebrow">BECAUSE I KNOW YOU LOVE THEM</p>
+
+            <h2 class="ive-heading">
+                HAPPY 25,<br>
+                <span>RICKKYYYY!</span>
+            </h2>
+
+            <p class="description">
+                Your birthday deserves a little extra sparkle.
+                So here's something for our favourite DIVE. 💚
+            </p>
+
+            <div class="ive-photo-frame">
+                <div class="ive-neon-border"></div>
+
+                <img src="images/ive.jpg"
+                     alt="IVE group photo"
+                     class="ive-image">
+
+                <div class="ive-photo-overlay">
+                    <span class="ive-heart">♡</span>
+                    <p>WITH LOVE, FOR YOU</p>
+                </div>
+            </div>
+
+            <div class="yujin-card">
+
+                <div class="yujin-top">AND OF COURSE...</div>
+                <div class="yujin-symbol">✧</div>
+
+                <h3>YOUR FAVOURITE STAR</h3>
+                <h2>AN YUJIN ♡</h2>
+
+                <p>
+                    May your 25th year be filled with confidence,
+                    happiness, unforgettable memories, and all the
+                    beautiful things that make your heart shine.
+                </p>
+
+                <div class="yujin-bottom">
+                    BIRTHDAY GIRL ENERGY ONLY ✨
+                </div>
+            </div>
+
+            <button class="main-button" onclick="showPage(6)">
+                VIEW MESSAGE FROM YOUR MOST ANNOYING PERSON
+                <span class="button-arrow">♡</span>
+            </button>
+
+            <p class="bottom-note">
+                WARNING: THIS NEXT PART MIGHT BE EMOTIONAL. 🥹
+            </p>
+        </div>
+    </section>
+
+    <!-- PAGE 6: HEART MESSAGE -->
+    <section class="page" id="page6">
+        <div class="page-content letter-content">
+
+            <p class="eyebrow">ONE LAST SURPRISE</p>
+
+            <h2 class="section-heading">
+                A LITTLE PIECE<br>
+                <span>OF MY HEART. 💚</span>
+            </h2>
+
+            <p class="description">
+                From your most annoying person,
+                with more love than I can ever explain.
+            </p>
+
+            <button class="message-button" id="messageButton">
+                <span class="message-button-heart">♡</span>
+
+                <span class="message-button-text">
+                    VIEW MESSAGE FROM YOUR<br>
+                    MOST ANNOYING PERSON
+                </span>
+
+                <span class="message-button-arrow">↗</span>
+            </button>
+
+            <div class="heart-message-wrapper hidden"
+                 id="heartMessageWrapper">
+
+                <div class="big-heart" id="bigHeart">
+                    <div class="heart-glow"></div>
+
+                    <div class="heart-letter">
+
+                        <div class="letter-top-heart">♡</div>
+                        <h3>TO MY AKKEE,</h3>
+
+                        <p class="letter-subtitle">
+                            MY SECOND MOM & MY FOREVER PERSON
+                        </p>
+
+                        <div class="letter-divider">
+                            <span>✧</span>
+                        </div>
+
+                        <div class="letter-body">
+                            <p>
+                                Thank you for being born as my sister.
+                                I pray that in every lifetime, I'll be
+                                blessed to have you as my big sister
+                                all over again.
+                            </p>
+
+                            <p>
+                                You are the best sister in the whole
+                                world, and to me, you're like a second
+                                mom. Thank you for understanding me,
+                                for helping me in everything, and for
+                                always being there for me in your own
+                                special way.
+                            </p>
+
+                            <p>
+                                I hope life is always kind to you,
+                                because you deserve so much happiness
+                                and love. No matter what happens,
+                                please remember that you'll never have
+                                to face this world alone.
+                            </p>
+
+                            <p class="letter-love">
+                                I LOVE YOU SO MUCH, AKKEE. ♡
+                            </p>
+
+                            <p class="letter-forever">
+                                I'LL ALWAYS BE BY YOUR SIDE.<br>
+                                IN THIS LIFE AND EVERY LIFETIME. ♡
+                            </p>
+                        </div>
+
+                        <div class="letter-signature">
+                            Forever your annoying person ♡
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="final-footer hidden" id="finalFooter">
+
+                <div class="final-heart">💚</div>
+
+                <h2>HAPPY 25TH BIRTHDAY!</h2>
+
+                <p>
+                    I love you today, tomorrow,
+                    and in every lifetime.
+                </p>
+
+                <p class="final-caption">
+                    YOUR ANNOYING PERSON, FOREVER. ♡
+                </p>
+
+                <button class="outline-button"
+                        onclick="restartWebsite()">
+                    ↺ EXPERIENCE IT AGAIN
+                </button>
+            </div>
+        </div>
+    </section>
+
+    <!-- Confetti -->
+    <div id="confetti-container"></div>
+
+    <footer class="site-footer">
+        <span>MADE WITH LOVE</span>
+        <span class="footer-heart">♡</span>
+        <span>FOR MY AKKEE</span>
+    </footer>
+
+    <script src="script.js"></script>
+
+</body>
+</html>
